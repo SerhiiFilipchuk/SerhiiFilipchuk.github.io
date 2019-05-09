@@ -258,6 +258,7 @@ header .logo {
 
   .header-nav-left a,
   .header-nav-right a {
+    font-size: 20px !important;
     display: block;
     width: 100%;
     text-align: center;
@@ -290,6 +291,14 @@ header .logo {
     padding-left: 0;
   }
 
+  .musthead {
+    height: 100vh !important;
+  }
+
+  .musthead h1 {
+    padding-top: 250px !important;
+  }
+
   .get-started .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -304,7 +313,7 @@ header .logo {
   }
 
   .get-started .section-title {
-    padding-top: 60px;
+    padding-top: 40px;
     text-align: center;
   }
 
@@ -409,6 +418,7 @@ header .logo {
   .download-btns .download-btn {
     width: 155px !important;
     margin-right: 0;
+    padding: 0 20px !important;
   }
 }
 
