@@ -505,7 +505,7 @@ header .wrapper {
   display: flex;
 }
 
-.last-works .section-description {
+.last-works .skills-description {
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -569,26 +569,19 @@ header .wrapper {
   color: #c9af98;
 }
 
-@media screen and (max-width: 769px) {
-  .last-works .wrapper {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-    -ms-flex-direction: column !important;
-    flex-direction: column !important;
-    -webkit-box-pack: start !important;
-    -ms-flex-pack: start !important;
-    justify-content: flex-start !important;
-  }
-}
-
-@media screen and (max-width: 1123px) {
+@media (max-width: 1123px) {
   .wrapper {
     width: 98%;
+  }
+
+  .last-works .skills-description {
+    justify-content: center !important;
   }
 
   .sample {
     max-height: 200px;
     max-width: 200px;
+    margin-right: 10px;
   }
 }
 
@@ -683,7 +676,10 @@ header .wrapper {
   padding-right: 10px;
 }
 
-.social-media .instagram-icon,
+.social-media .instagram-icon {
+  height: 36px;
+}
+
 .social-media .linkedin-icon {
   height: 36px;
 }
