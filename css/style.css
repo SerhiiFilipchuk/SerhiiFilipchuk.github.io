@@ -505,7 +505,7 @@ header .wrapper {
   display: flex;
 }
 
-.last-works .skills-description {
+.last-works .section-description {
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -567,6 +567,29 @@ header .wrapper {
   font-style: normal;
   font-size: 14px;
   color: #c9af98;
+}
+
+@media screen and (max-width: 769px) {
+  .last-works .wrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+  }
+}
+
+@media screen and (max-width: 1123px) {
+  .wrapper {
+    width: 98%;
+  }
+
+  .sample {
+    max-height: 200px;
+    max-width: 200px;
+  }
 }
 
 /* CONTACT ME */
@@ -660,10 +683,7 @@ header .wrapper {
   padding-right: 10px;
 }
 
-.social-media .instagram-icon {
-  height: 36px;
-}
-
+.social-media .instagram-icon,
 .social-media .linkedin-icon {
   height: 36px;
 }
